@@ -1,0 +1,39 @@
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 12px;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.age {
+  margin-left: 10px;
+  color: #555;
+}
+
+.button {
+  padding: 5px 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #cc0000;
+}
