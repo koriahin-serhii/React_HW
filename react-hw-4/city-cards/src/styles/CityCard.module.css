@@ -1,0 +1,27 @@
+.card {
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.facts {
+  padding-left: 20px;
+  text-align: left;
+}

@@ -1,0 +1,15 @@
+.selector {
+  margin: 20px 0;
+}
+
+.label {
+  margin-bottom: 15px;
+}
+
+.dropdown {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 15px;
+  border: 1px solid rgb(29, 34, 25);
+  background-color: rgb(66, 168, 89);
+}

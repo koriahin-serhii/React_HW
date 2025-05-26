@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 90%;
+  height: 90%;
+  margin: 20px auto;
+
+  background-color: rgb(111, 176, 104);
+  border: 2px solid rgb(151, 251, 65);
+  border-radius: 15px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
