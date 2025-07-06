@@ -1,0 +1,142 @@
+.contacts {
+  max-width: 1460px;
+  min-height: 100vh;
+  padding: 50px 20px;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-bottom: 117px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(234, 234, 234);
+  }
+}
+
+.contentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  @media (max-width: 1282px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.contactForm {
+  max-width: 100%;
+  box-sizing: border-box;
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-bottom: 67px;
+
+    li {
+      color: rgba(0, 0, 0, 0.5);
+      font-size: 18px;
+      line-height: 81%;
+
+      &::marker {
+        font-size: 0.7em;
+      }
+    }
+  }
+
+  button {
+    font-weight: 600;
+    line-height: 81%;
+    color: rgb(255, 255, 255);
+
+    align-self: flex-end;
+    padding: 21px 25px;
+    border-radius: 10px;
+    background: rgb(9, 13, 26);
+
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+    &:hover {
+      background-color: rgb(48, 50, 54);
+    }
+  }
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formRow {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  margin-bottom: 40px;
+  input {
+    width: 365px;
+    min-width: 0;
+    max-width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    line-height: 81%;
+    box-sizing: border-box;
+    padding: 25px 21px;
+    border-radius: 10px;
+    background: rgb(250, 250, 250);
+  }
+}
+
+textarea {
+  width: 770px;
+  min-width: 0;
+  max-width: 100%;
+  min-height: 120px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 18px;
+  line-height: 81%;
+  box-sizing: border-box;
+  resize: none;
+  padding: 25px 21px;
+  border-radius: 10px;
+  background: rgb(250, 250, 250);
+  margin-bottom: 31px;
+}
+
+.linksContainer {
+  border-radius: 10px;
+  background: rgb(250, 250, 250);
+  padding: 18px 65px 72px 65px;
+  max-height: 221px;
+  p {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 81%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+
+  img {
+    max-width: 76px;
+    height: auto;
+  }
+
+  @media (max-width: 900px) {
+    img {
+      max-width: 48px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    img {
+      max-width: 32px;
+    }
+  }
+}

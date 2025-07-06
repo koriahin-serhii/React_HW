@@ -1,0 +1,38 @@
+.header {
+  background-color: rgb(59, 60, 61);
+  height: 110px;
+  width: 100%;
+}
+.container {
+  max-width: 1460px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+
+  h1 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+  }
+}
+
+.nav {
+  display: flex;
+  gap: 64px;
+
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+
+  @media (max-width: 900px) {
+    gap: 40px;
+  }
+
+  @media (max-width: 600px) {
+    gap: 30px;
+  }
+}

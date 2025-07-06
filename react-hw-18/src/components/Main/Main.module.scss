@@ -1,0 +1,27 @@
+.main {
+  h1 {
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid rgb(234, 234, 234);
+  }
+}
+.container {
+  max-width: 1460px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 130px;
+  grid-row-gap: 100px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  padding: 45px 0;
+}
